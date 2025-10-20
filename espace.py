@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plott 
+nimport matplotlib.pyplot as plott 
 import random
 def generate_age(n, min, max):
              ag=[random.randint(min, max) for _ in range(n)]
@@ -6,7 +6,7 @@ def generate_age(n, min, max):
 age=generate_age(100, 18, 70)
 #print(age)  
 
-plott.hist(age, bins=100, color='red', edgecolor='black')
+plott.hist(age, bins=100, color='green', edgecolor='black')
 
 plott.title('age distribution of your customers')
 plott.xlabel('age')
